@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6257141C18760FC000420663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257141B18760FC000420663 /* Foundation.framework */; };
+		6257141E18760FC000420663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257141D18760FC000420663 /* CoreGraphics.framework */; };
+		6257142018760FC000420663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257141F18760FC000420663 /* UIKit.framework */; };
+		6257142618760FC000420663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6257142418760FC000420663 /* InfoPlist.strings */; };
+		6257142818760FC000420663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6257142718760FC000420663 /* main.m */; };
+		6257142C18760FC000420663 /* SCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6257142B18760FC000420663 /* SCSAppDelegate.m */; };
+		6257142E18760FC000420663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6257142D18760FC000420663 /* Images.xcassets */; };
+		6257143518760FC000420663 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257143418760FC000420663 /* XCTest.framework */; };
+		6257143618760FC000420663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257141B18760FC000420663 /* Foundation.framework */; };
+		6257143718760FC000420663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6257141F18760FC000420663 /* UIKit.framework */; };
+		6257143F18760FC000420663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6257143D18760FC000420663 /* InfoPlist.strings */; };
+		6257144118760FC000420663 /* SpaceshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6257144018760FC000420663 /* SpaceshipTests.m */; };
+		6257144D187614A400420663 /* SCSSpaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = 6257144C187614A400420663 /* SCSSpaceship.m */; };
+		62571451187642E200420663 /* SCSPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 62571450187642E200420663 /* SCSPlanet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6257143818760FC000420663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6257141018760FC000420663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6257141718760FC000420663;
+			remoteInfo = Spaceship;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6257141818760FC000420663 /* Spaceship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spaceship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6257141B18760FC000420663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6257141D18760FC000420663 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6257141F18760FC000420663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6257142318760FC000420663 /* Spaceship-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spaceship-Info.plist"; sourceTree = "<group>"; };
+		6257142518760FC000420663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6257142718760FC000420663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6257142918760FC000420663 /* Spaceship-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spaceship-Prefix.pch"; sourceTree = "<group>"; };
+		6257142A18760FC000420663 /* SCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSAppDelegate.h; sourceTree = "<group>"; };
+		6257142B18760FC000420663 /* SCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSAppDelegate.m; sourceTree = "<group>"; };
+		6257142D18760FC000420663 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6257143318760FC000420663 /* SpaceshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6257143418760FC000420663 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6257143C18760FC000420663 /* SpaceshipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceshipTests-Info.plist"; sourceTree = "<group>"; };
+		6257143E18760FC000420663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6257144018760FC000420663 /* SpaceshipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceshipTests.m; sourceTree = "<group>"; };
+		6257144B187614A400420663 /* SCSSpaceship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSSpaceship.h; sourceTree = "<group>"; };
+		6257144C187614A400420663 /* SCSSpaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSSpaceship.m; sourceTree = "<group>"; };
+		6257144F187642E200420663 /* SCSPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSPlanet.h; sourceTree = SOURCE_ROOT; };
+		62571450187642E200420663 /* SCSPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlanet.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6257141518760FC000420663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257141E18760FC000420663 /* CoreGraphics.framework in Frameworks */,
+				6257142018760FC000420663 /* UIKit.framework in Frameworks */,
+				6257141C18760FC000420663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257143018760FC000420663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257143518760FC000420663 /* XCTest.framework in Frameworks */,
+				6257143718760FC000420663 /* UIKit.framework in Frameworks */,
+				6257143618760FC000420663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6257140F18760FC000420663 = {
+			isa = PBXGroup;
+			children = (
+				6257142118760FC000420663 /* Spaceship */,
+				6257143A18760FC000420663 /* SpaceshipTests */,
+				6257141A18760FC000420663 /* Frameworks */,
+				6257141918760FC000420663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6257141918760FC000420663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6257141818760FC000420663 /* Spaceship.app */,
+				6257143318760FC000420663 /* SpaceshipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6257141A18760FC000420663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6257141B18760FC000420663 /* Foundation.framework */,
+				6257141D18760FC000420663 /* CoreGraphics.framework */,
+				6257141F18760FC000420663 /* UIKit.framework */,
+				6257143418760FC000420663 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6257142118760FC000420663 /* Spaceship */ = {
+			isa = PBXGroup;
+			children = (
+				6257144E187614AC00420663 /* Spaceship */,
+				62571452187642F500420663 /* Planet */,
+				6257144A187613BA00420663 /* App Delegate */,
+				6257142D18760FC000420663 /* Images.xcassets */,
+				6257142218760FC000420663 /* Supporting Files */,
+			);
+			path = Spaceship;
+			sourceTree = "<group>";
+		};
+		6257142218760FC000420663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6257142318760FC000420663 /* Spaceship-Info.plist */,
+				6257142418760FC000420663 /* InfoPlist.strings */,
+				6257142718760FC000420663 /* main.m */,
+				6257142918760FC000420663 /* Spaceship-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6257143A18760FC000420663 /* SpaceshipTests */ = {
+			isa = PBXGroup;
+			children = (
+				6257144018760FC000420663 /* SpaceshipTests.m */,
+				6257143B18760FC000420663 /* Supporting Files */,
+			);
+			path = SpaceshipTests;
+			sourceTree = "<group>";
+		};
+		6257143B18760FC000420663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6257143C18760FC000420663 /* SpaceshipTests-Info.plist */,
+				6257143D18760FC000420663 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6257144A187613BA00420663 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6257142A18760FC000420663 /* SCSAppDelegate.h */,
+				6257142B18760FC000420663 /* SCSAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		6257144E187614AC00420663 /* Spaceship */ = {
+			isa = PBXGroup;
+			children = (
+				6257144B187614A400420663 /* SCSSpaceship.h */,
+				6257144C187614A400420663 /* SCSSpaceship.m */,
+			);
+			name = Spaceship;
+			sourceTree = "<group>";
+		};
+		62571452187642F500420663 /* Planet */ = {
+			isa = PBXGroup;
+			children = (
+				6257144F187642E200420663 /* SCSPlanet.h */,
+				62571450187642E200420663 /* SCSPlanet.m */,
+			);
+			name = Planet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6257141718760FC000420663 /* Spaceship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6257144418760FC000420663 /* Build configuration list for PBXNativeTarget "Spaceship" */;
+			buildPhases = (
+				6257141418760FC000420663 /* Sources */,
+				6257141518760FC000420663 /* Frameworks */,
+				6257141618760FC000420663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spaceship;
+			productName = Spaceship;
+			productReference = 6257141818760FC000420663 /* Spaceship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6257143218760FC000420663 /* SpaceshipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6257144718760FC000420663 /* Build configuration list for PBXNativeTarget "SpaceshipTests" */;
+			buildPhases = (
+				6257142F18760FC000420663 /* Sources */,
+				6257143018760FC000420663 /* Frameworks */,
+				6257143118760FC000420663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6257143918760FC000420663 /* PBXTargetDependency */,
+			);
+			name = SpaceshipTests;
+			productName = SpaceshipTests;
+			productReference = 6257143318760FC000420663 /* SpaceshipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6257141018760FC000420663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "CS 193P";
+				TargetAttributes = {
+					6257143218760FC000420663 = {
+						TestTargetID = 6257141718760FC000420663;
+					};
+				};
+			};
+			buildConfigurationList = 6257141318760FC000420663 /* Build configuration list for PBXProject "Spaceship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6257140F18760FC000420663;
+			productRefGroup = 6257141918760FC000420663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6257141718760FC000420663 /* Spaceship */,
+				6257143218760FC000420663 /* SpaceshipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6257141618760FC000420663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257142618760FC000420663 /* InfoPlist.strings in Resources */,
+				6257142E18760FC000420663 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257143118760FC000420663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257143F18760FC000420663 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6257141418760FC000420663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257142C18760FC000420663 /* SCSAppDelegate.m in Sources */,
+				6257142818760FC000420663 /* main.m in Sources */,
+				6257144D187614A400420663 /* SCSSpaceship.m in Sources */,
+				62571451187642E200420663 /* SCSPlanet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257142F18760FC000420663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6257144118760FC000420663 /* SpaceshipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6257143918760FC000420663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6257141718760FC000420663 /* Spaceship */;
+			targetProxy = 6257143818760FC000420663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6257142418760FC000420663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6257142518760FC000420663 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6257143D18760FC000420663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6257143E18760FC000420663 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6257144218760FC000420663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6257144318760FC000420663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6257144518760FC000420663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship/Spaceship-Prefix.pch";
+				INFOPLIST_FILE = "Spaceship/Spaceship-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6257144618760FC000420663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship/Spaceship-Prefix.pch";
+				INFOPLIST_FILE = "Spaceship/Spaceship-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6257144818760FC000420663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spaceship.app/Spaceship";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship/Spaceship-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpaceshipTests/SpaceshipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6257144918760FC000420663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spaceship.app/Spaceship";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship/Spaceship-Prefix.pch";
+				INFOPLIST_FILE = "SpaceshipTests/SpaceshipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6257141318760FC000420663 /* Build configuration list for PBXProject "Spaceship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6257144218760FC000420663 /* Debug */,
+				6257144318760FC000420663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6257144418760FC000420663 /* Build configuration list for PBXNativeTarget "Spaceship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6257144518760FC000420663 /* Debug */,
+				6257144618760FC000420663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6257144718760FC000420663 /* Build configuration list for PBXNativeTarget "SpaceshipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6257144818760FC000420663 /* Debug */,
+				6257144918760FC000420663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6257141018760FC000420663 /* Project object */;
+}
