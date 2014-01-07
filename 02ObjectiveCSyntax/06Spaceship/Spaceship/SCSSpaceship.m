@@ -1,6 +1,8 @@
 #import "SCSSpaceship.h"
 
 @implementation SCSSpaceship {
+    double _topSpeed;
+    SCSPlanet *_planetToOrbit;
     double _altitude;
 }
 - (SCSPlanet *)planetToOrbit {
