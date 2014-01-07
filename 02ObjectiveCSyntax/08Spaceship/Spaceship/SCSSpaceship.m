@@ -2,13 +2,14 @@
 
 @interface SCSSpaceship ()
 @property (nonatomic) double altitude;
+@property (strong, nonatomic, readwrite) SCSPlanet *planetToOrbit;
 @end
 
 @implementation SCSSpaceship
 - (void)orbitPlanet:(SCSPlanet *)planet
          atAltitude:(double)altitude {
-    _planetToOrbit = planet;
-    _altitude = altitude;
+    self.planetToOrbit = planet;
+    self.altitude = altitude;
 }
 - (void)engage {}
 @end
