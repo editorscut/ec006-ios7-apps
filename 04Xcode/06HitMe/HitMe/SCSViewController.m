@@ -1,15 +1,15 @@
 #import "SCSViewController.h"
 
 @interface SCSViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *playingCardLabel;
 @end
 
 @implementation SCSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.playingCardLabel.layer.cornerRadius = self.playingCardLabel.frame.size.width/12;
+    self.playingCardLabel.text = @"A ♣︎";
 }
 
 - (void)didReceiveMemoryWarning
