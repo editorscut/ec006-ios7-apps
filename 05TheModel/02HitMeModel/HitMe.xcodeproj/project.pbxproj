@@ -48,7 +48,7 @@
 		6246AD7618809BE6009E83E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6246AD7818809BE6009E83E6 /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
 		6246AD7918809BE6009E83E6 /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
-		6246AD7B18809BE6009E83E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6246AD7B18809BE6009E83E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HitMe/Images.xcassets; sourceTree = "<group>"; };
 		6246AD8118809BE6009E83E6 /* HitMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6246AD8218809BE6009E83E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6246AD8A18809BE6009E83E6 /* HitMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitMeTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				6246AD6918809BE6009E83E6 /* HitMe */,
+				6246AD7B18809BE6009E83E6 /* Images.xcassets */,
 				6246AD8818809BE6009E83E6 /* HitMeTests */,
 				6246AD6218809BE6009E83E6 /* Frameworks */,
 				6246AD6118809BE6009E83E6 /* Products */,
@@ -122,7 +123,6 @@
 				6246AD7918809BE6009E83E6 /* SCSViewController.m */,
 				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
 				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
-				6246AD7B18809BE6009E83E6 /* Images.xcassets */,
 				6246AD6A18809BE6009E83E6 /* Supporting Files */,
 			);
 			path = HitMe;
