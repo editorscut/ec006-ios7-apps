@@ -21,6 +21,7 @@
 		6246AD8518809BE6009E83E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6718809BE6009E83E6 /* UIKit.framework */; };
 		6246AD8D18809BE6009E83E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6246AD8B18809BE6009E83E6 /* InfoPlist.strings */; };
 		6246AD8F18809BE6009E83E6 /* HitMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246AD8E18809BE6009E83E6 /* HitMeTests.m */; };
+		625CB7D618843EB9001AF40C /* SCSPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 625CB7D518843EB9001AF40C /* SCSPlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6246AD8A18809BE6009E83E6 /* HitMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitMeTests-Info.plist"; sourceTree = "<group>"; };
 		6246AD8C18809BE6009E83E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6246AD8E18809BE6009E83E6 /* HitMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitMeTests.m; sourceTree = "<group>"; };
+		625CB7D418843EB9001AF40C /* SCSPlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSPlayingCard.h; sourceTree = "<group>"; };
+		625CB7D518843EB9001AF40C /* SCSPlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6246AD7918809BE6009E83E6 /* SCSViewController.m */,
 				6246AD7B18809BE6009E83E6 /* Images.xcassets */,
 				6246AD6A18809BE6009E83E6 /* Supporting Files */,
+				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
+				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
 			);
 			path = HitMe;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				6246AD7418809BE6009E83E6 /* SCSAppDelegate.m in Sources */,
 				6246AD7018809BE6009E83E6 /* main.m in Sources */,
+				625CB7D618843EB9001AF40C /* SCSPlayingCard.m in Sources */,
 				6246AD7A18809BE6009E83E6 /* SCSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
