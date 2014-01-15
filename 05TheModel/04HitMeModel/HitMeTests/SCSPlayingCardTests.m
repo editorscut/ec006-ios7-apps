@@ -1,18 +1,18 @@
 //
-//  HitMeTests.m
-//  HitMeTests
+//  SCSPlayingCardTests.m
+//  HitMe
 //
-//  Created by Daniel Steinberg on 1/10/14.
+//  Created by Daniel Steinberg on 1/15/14.
 //  Copyright (c) 2014 CS 193P. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface HitMeTests : XCTestCase
+@interface SCSPlayingCardTests : XCTestCase
 
 @end
 
-@implementation HitMeTests
+@implementation SCSPlayingCardTests
 
 - (void)setUp
 {
