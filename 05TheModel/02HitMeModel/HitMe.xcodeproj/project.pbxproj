@@ -82,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621839141886C3F60097683A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
+				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		621839151886C42D0097683A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6246AD7218809BE6009E83E6 /* SCSAppDelegate.h */,
+				6246AD7318809BE6009E83E6 /* SCSAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		621839161886C4400097683A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6246AD7818809BE6009E83E6 /* SCSViewController.h */,
+				6246AD7918809BE6009E83E6 /* SCSViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
 		6246AD5718809BE6009E83E6 = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +143,10 @@
 		6246AD6918809BE6009E83E6 /* HitMe */ = {
 			isa = PBXGroup;
 			children = (
-				6246AD7218809BE6009E83E6 /* SCSAppDelegate.h */,
-				6246AD7318809BE6009E83E6 /* SCSAppDelegate.m */,
 				6246AD7518809BE6009E83E6 /* Main.storyboard */,
-				6246AD7818809BE6009E83E6 /* SCSViewController.h */,
-				6246AD7918809BE6009E83E6 /* SCSViewController.m */,
-				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
-				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
+				621839161886C4400097683A /* View Controller */,
+				621839141886C3F60097683A /* Model */,
+				621839151886C42D0097683A /* App Delegate */,
 				6246AD6A18809BE6009E83E6 /* Supporting Files */,
 			);
 			path = HitMe;
