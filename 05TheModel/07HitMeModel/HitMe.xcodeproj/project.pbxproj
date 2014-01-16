@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6218391A18871DBE0097683A /* SCSPlayingCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218391918871DBE0097683A /* SCSPlayingCardTests.m */; };
-		6218391D188818A90097683A /* SCSSetPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218391C188818A90097683A /* SCSSetPlayingCard.m */; };
 		6246AD6418809BE6009E83E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6318809BE6009E83E6 /* Foundation.framework */; };
 		6246AD6618809BE6009E83E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6518809BE6009E83E6 /* CoreGraphics.framework */; };
 		6246AD6818809BE6009E83E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6718809BE6009E83E6 /* UIKit.framework */; };
@@ -37,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		6218391918871DBE0097683A /* SCSPlayingCardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardTests.m; sourceTree = "<group>"; };
-		6218391B188818A90097683A /* SCSSetPlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSSetPlayingCard.h; sourceTree = "<group>"; };
-		6218391C188818A90097683A /* SCSSetPlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSSetPlayingCard.m; sourceTree = "<group>"; };
 		6246AD6018809BE6009E83E6 /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6246AD6318809BE6009E83E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6246AD6518809BE6009E83E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,8 +87,6 @@
 			children = (
 				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
 				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
-				6218391B188818A90097683A /* SCSSetPlayingCard.h */,
-				6218391C188818A90097683A /* SCSSetPlayingCard.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -287,7 +282,6 @@
 				6246AD7418809BE6009E83E6 /* SCSAppDelegate.m in Sources */,
 				6246AD7018809BE6009E83E6 /* main.m in Sources */,
 				625CB7D618843EB9001AF40C /* SCSPlayingCard.m in Sources */,
-				6218391D188818A90097683A /* SCSSetPlayingCard.m in Sources */,
 				6246AD7A18809BE6009E83E6 /* SCSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

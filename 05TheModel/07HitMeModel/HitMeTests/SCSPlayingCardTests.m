@@ -1,5 +1,5 @@
 #import <XCTest/XCTest.h>
-#import "SCSSetPlayingCard.h"
+#import "SCSPlayingCard.h"
 
 @interface SCSPlayingCardTests : XCTestCase
 @property (nonatomic) SCSPlayingCard *playingCard;
@@ -9,9 +9,9 @@
 
 - (void)setUp {
     [super setUp];
-    self.playingCard = [[SCSSetPlayingCard alloc] initWithRank:@"A"
-                                                          suit:@"♣︎"
-                                                         color:[UIColor blackColor]];
+    self.playingCard = [[SCSPlayingCard alloc] initWithRank:@"A"
+                                                       suit:@"♣︎"
+                                                      color:[UIColor blackColor]];
 }
 
 - (void)tearDown {
