@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6218391A18871DBE0097683A /* SCSPlayingCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218391918871DBE0097683A /* SCSPlayingCardTests.m */; };
+		6218391F1888200F0097683A /* SCSDeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218391E1888200F0097683A /* SCSDeckTests.m */; };
+		62183922188820330097683A /* SCSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 62183921188820330097683A /* SCSDeck.m */; };
 		6246AD6418809BE6009E83E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6318809BE6009E83E6 /* Foundation.framework */; };
 		6246AD6618809BE6009E83E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6518809BE6009E83E6 /* CoreGraphics.framework */; };
 		6246AD6818809BE6009E83E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6718809BE6009E83E6 /* UIKit.framework */; };
@@ -36,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		6218391918871DBE0097683A /* SCSPlayingCardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardTests.m; sourceTree = "<group>"; };
+		6218391E1888200F0097683A /* SCSDeckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSDeckTests.m; sourceTree = "<group>"; };
+		62183920188820330097683A /* SCSDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSDeck.h; sourceTree = "<group>"; };
+		62183921188820330097683A /* SCSDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSDeck.m; sourceTree = "<group>"; };
 		6246AD6018809BE6009E83E6 /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6246AD6318809BE6009E83E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6246AD6518809BE6009E83E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +92,8 @@
 			children = (
 				625CB7D418843EB9001AF40C /* SCSPlayingCard.h */,
 				625CB7D518843EB9001AF40C /* SCSPlayingCard.m */,
+				62183920188820330097683A /* SCSDeck.h */,
+				62183921188820330097683A /* SCSDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 			children = (
 				6246AD8918809BE6009E83E6 /* Supporting Files */,
 				6218391918871DBE0097683A /* SCSPlayingCardTests.m */,
+				6218391E1888200F0097683A /* SCSDeckTests.m */,
 			);
 			path = HitMeTests;
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 			files = (
 				6246AD7418809BE6009E83E6 /* SCSAppDelegate.m in Sources */,
 				6246AD7018809BE6009E83E6 /* main.m in Sources */,
+				62183922188820330097683A /* SCSDeck.m in Sources */,
 				625CB7D618843EB9001AF40C /* SCSPlayingCard.m in Sources */,
 				6246AD7A18809BE6009E83E6 /* SCSViewController.m in Sources */,
 			);
@@ -290,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6218391F1888200F0097683A /* SCSDeckTests.m in Sources */,
 				6218391A18871DBE0097683A /* SCSPlayingCardTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
