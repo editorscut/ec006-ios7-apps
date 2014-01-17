@@ -50,6 +50,7 @@
         [self.game nextCard];
     }
     XCTAssertFalse([self.game hasNextCard], @"There should not be a next card.");
+
 }
 
 
