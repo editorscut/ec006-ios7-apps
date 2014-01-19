@@ -17,9 +17,9 @@
 }
 
 
-
-
-
+- (IBAction)viewTappedToFlipCard:(UITapGestureRecognizer *)sender {
+    self.playingCardBackImageView.hidden = ! self.playingCardBackImageView.hidden;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.layer.cornerRadius = self.view.frame.size.width/32;
