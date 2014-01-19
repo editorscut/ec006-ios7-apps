@@ -13,7 +13,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.playingCardLabel.layer.cornerRadius = self.playingCardLabel.frame.size.width/12;
     self.game = [[SCSHitMeGame alloc] init];
     [self.game fillAndShuffleDeck];
     [self getNextCard];

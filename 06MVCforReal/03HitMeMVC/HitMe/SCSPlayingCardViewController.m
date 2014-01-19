@@ -1,7 +1,8 @@
 #import "SCSPlayingCardViewController.h"
 
 @interface SCSPlayingCardViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *playingCardLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *playingCardBackImageView;
 @end
 
 @implementation SCSPlayingCardViewController
