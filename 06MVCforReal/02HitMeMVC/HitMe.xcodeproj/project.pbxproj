@@ -12,7 +12,6 @@
 		62183922188820330097683A /* SCSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 62183921188820330097683A /* SCSDeck.m */; };
 		621839251888977E0097683A /* SCSHitMeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 621839241888977E0097683A /* SCSHitMeGame.m */; };
 		621839271888C7CB0097683A /* SCSHitMeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621839261888C7CB0097683A /* SCSHitMeGameTests.m */; };
-		6219B996188B16130045ACB8 /* SCSPlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6219B995188B16130045ACB8 /* SCSPlayingCardView.m */; };
 		6219B999188B16220045ACB8 /* SCSPlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6219B998188B16220045ACB8 /* SCSPlayingCardViewController.m */; };
 		6246AD6418809BE6009E83E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6318809BE6009E83E6 /* Foundation.framework */; };
 		6246AD6618809BE6009E83E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6518809BE6009E83E6 /* CoreGraphics.framework */; };
@@ -48,8 +47,6 @@
 		621839231888977E0097683A /* SCSHitMeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSHitMeGame.h; sourceTree = "<group>"; };
 		621839241888977E0097683A /* SCSHitMeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSHitMeGame.m; sourceTree = "<group>"; };
 		621839261888C7CB0097683A /* SCSHitMeGameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSHitMeGameTests.m; sourceTree = "<group>"; };
-		6219B994188B16130045ACB8 /* SCSPlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSPlayingCardView.h; sourceTree = "<group>"; };
-		6219B995188B16130045ACB8 /* SCSPlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardView.m; sourceTree = "<group>"; };
 		6219B997188B16220045ACB8 /* SCSPlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSPlayingCardViewController.h; sourceTree = "<group>"; };
 		6219B998188B16220045ACB8 /* SCSPlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardViewController.m; sourceTree = "<group>"; };
 		6246AD6018809BE6009E83E6 /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,8 +129,6 @@
 		6219B99A188B162A0045ACB8 /* Playing Card View */ = {
 			isa = PBXGroup;
 			children = (
-				6219B994188B16130045ACB8 /* SCSPlayingCardView.h */,
-				6219B995188B16130045ACB8 /* SCSPlayingCardView.m */,
 				6219B997188B16220045ACB8 /* SCSPlayingCardViewController.h */,
 				6219B998188B16220045ACB8 /* SCSPlayingCardViewController.m */,
 			);
@@ -314,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6246AD7418809BE6009E83E6 /* SCSAppDelegate.m in Sources */,
-				6219B996188B16130045ACB8 /* SCSPlayingCardView.m in Sources */,
 				6246AD7018809BE6009E83E6 /* main.m in Sources */,
 				62183922188820330097683A /* SCSDeck.m in Sources */,
 				621839251888977E0097683A /* SCSHitMeGame.m in Sources */,

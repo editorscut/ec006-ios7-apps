@@ -59,7 +59,7 @@
                         <viewControllerLayoutGuide type="top" id="eHF-CG-jO4"/>
                         <viewControllerLayoutGuide type="bottom" id="ZCi-qf-u1u"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X13-2c-oBJ" customClass="SCSPlayingCardView">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X13-2c-oBJ">
                         <rect key="frame" x="0.0" y="0.0" width="75" height="105"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
