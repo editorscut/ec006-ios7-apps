@@ -39,7 +39,6 @@
                             <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lwz-xb-uKd">
                                 <rect key="frame" x="123" y="80" width="75" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="d4z-jZ-X2a" kind="embed" id="83O-Wu-sWZ"/>
                                 </connections>
@@ -52,15 +51,15 @@
             </objects>
             <point key="canvasLocation" x="97" y="51"/>
         </scene>
-        <!--View Controller-->
+        <!--Playing Card View Controller-->
         <scene sceneID="0Ns-rC-JfP">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="d4z-jZ-X2a" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="d4z-jZ-X2a" customClass="SCSPlayingCardViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eHF-CG-jO4"/>
                         <viewControllerLayoutGuide type="bottom" id="ZCi-qf-u1u"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X13-2c-oBJ">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X13-2c-oBJ" customClass="SCSPlayingCardView">
                         <rect key="frame" x="0.0" y="0.0" width="75" height="105"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

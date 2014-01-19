@@ -15,10 +15,9 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.layer.cornerRadius = self.view.frame.size.width/32;
 }
 
 - (void)didReceiveMemoryWarning
