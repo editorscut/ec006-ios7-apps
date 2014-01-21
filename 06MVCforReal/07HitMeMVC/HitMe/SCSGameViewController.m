@@ -13,7 +13,7 @@
     [self.game fillAndShuffleDeck];
 }
 
-- (IBAction)nextCardButtonTapped:(UIButton *)nextCardButton {
+- (IBAction)nextButtonTapped:(UIButton *)nextCardButton {
     nextCardButton.enabled = [self.game hasNextCard];
 }
 @end

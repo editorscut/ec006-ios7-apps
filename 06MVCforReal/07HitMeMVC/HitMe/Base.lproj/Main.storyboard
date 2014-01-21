@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextCardButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jf8-nP-5sQ"/>
+                                    <action selector="nextButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GOU-Qz-fM9"/>
                                 </connections>
                             </button>
                             <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lwz-xb-uKd">
