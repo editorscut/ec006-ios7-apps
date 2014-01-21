@@ -7,10 +7,14 @@
 
 @implementation SCSGameViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)setUpGame {
     self.game = [[SCSHitMeGame alloc] init];
     [self.game fillAndShuffleDeck];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setUpGame];
 }
 
 - (IBAction)nextButtonTapped:(UIButton *)nextCardButton {
