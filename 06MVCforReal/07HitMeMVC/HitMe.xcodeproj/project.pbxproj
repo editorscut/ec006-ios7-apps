@@ -20,7 +20,7 @@
 		6246AD7018809BE6009E83E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246AD6F18809BE6009E83E6 /* main.m */; };
 		6246AD7418809BE6009E83E6 /* SCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246AD7318809BE6009E83E6 /* SCSAppDelegate.m */; };
 		6246AD7718809BE6009E83E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6246AD7518809BE6009E83E6 /* Main.storyboard */; };
-		6246AD7A18809BE6009E83E6 /* SCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246AD7918809BE6009E83E6 /* SCSViewController.m */; };
+		6246AD7A18809BE6009E83E6 /* SCSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246AD7918809BE6009E83E6 /* SCSGameViewController.m */; };
 		6246AD7C18809BE6009E83E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6246AD7B18809BE6009E83E6 /* Images.xcassets */; };
 		6246AD8318809BE6009E83E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD8218809BE6009E83E6 /* XCTest.framework */; };
 		6246AD8418809BE6009E83E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246AD6318809BE6009E83E6 /* Foundation.framework */; };
@@ -60,8 +60,8 @@
 		6246AD7218809BE6009E83E6 /* SCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSAppDelegate.h; sourceTree = "<group>"; };
 		6246AD7318809BE6009E83E6 /* SCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSAppDelegate.m; sourceTree = "<group>"; };
 		6246AD7618809BE6009E83E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6246AD7818809BE6009E83E6 /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
-		6246AD7918809BE6009E83E6 /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
+		6246AD7818809BE6009E83E6 /* SCSGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSGameViewController.h; sourceTree = "<group>"; };
+		6246AD7918809BE6009E83E6 /* SCSGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSGameViewController.m; sourceTree = "<group>"; };
 		6246AD7B18809BE6009E83E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HitMe/Images.xcassets; sourceTree = "<group>"; };
 		6246AD8118809BE6009E83E6 /* HitMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6246AD8218809BE6009E83E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,8 +120,8 @@
 		621839161886C4400097683A /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6246AD7818809BE6009E83E6 /* SCSViewController.h */,
-				6246AD7918809BE6009E83E6 /* SCSViewController.m */,
+				6246AD7818809BE6009E83E6 /* SCSGameViewController.h */,
+				6246AD7918809BE6009E83E6 /* SCSGameViewController.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 				62183922188820330097683A /* SCSDeck.m in Sources */,
 				621839251888977E0097683A /* SCSHitMeGame.m in Sources */,
 				625CB7D618843EB9001AF40C /* SCSPlayingCard.m in Sources */,
-				6246AD7A18809BE6009E83E6 /* SCSViewController.m in Sources */,
+				6246AD7A18809BE6009E83E6 /* SCSGameViewController.m in Sources */,
 				6219B999188B16220045ACB8 /* SCSPlayingCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,11 +1,11 @@
-#import "SCSViewController.h"
+#import "SCSGameViewController.h"
 #import "SCSHitMeGame.h"
 
-@interface SCSViewController ()
+@interface SCSGameViewController ()
 @property (nonatomic) SCSHitMeGame *game;
 @end
 
-@implementation SCSViewController
+@implementation SCSGameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
