@@ -14,7 +14,6 @@
 		623A465E18A14E1100FB5BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A465D18A14E1100FB5BF9 /* main.m */; };
 		623A466218A14E1100FB5BF9 /* SCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A466118A14E1100FB5BF9 /* SCSAppDelegate.m */; };
 		623A466518A14E1100FB5BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A466318A14E1100FB5BF9 /* Main.storyboard */; };
-		623A466818A14E1100FB5BF9 /* SCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A466718A14E1100FB5BF9 /* SCSViewController.m */; };
 		623A466A18A14E1100FB5BF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A466918A14E1100FB5BF9 /* Images.xcassets */; };
 		623A467118A14E1100FB5BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A467018A14E1100FB5BF9 /* XCTest.framework */; };
 		623A467218A14E1100FB5BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A465118A14E1100FB5BF9 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		623A466018A14E1100FB5BF9 /* SCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSAppDelegate.h; sourceTree = "<group>"; };
 		623A466118A14E1100FB5BF9 /* SCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSAppDelegate.m; sourceTree = "<group>"; };
 		623A466418A14E1100FB5BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		623A466618A14E1100FB5BF9 /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
-		623A466718A14E1100FB5BF9 /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
 		623A466918A14E1100FB5BF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		623A466F18A14E1100FB5BF9 /* MatchMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		623A467018A14E1100FB5BF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				623A466018A14E1100FB5BF9 /* SCSAppDelegate.h */,
 				623A466118A14E1100FB5BF9 /* SCSAppDelegate.m */,
 				623A466318A14E1100FB5BF9 /* Main.storyboard */,
-				623A466618A14E1100FB5BF9 /* SCSViewController.h */,
-				623A466718A14E1100FB5BF9 /* SCSViewController.m */,
 				623A466918A14E1100FB5BF9 /* Images.xcassets */,
 				623A465818A14E1100FB5BF9 /* Supporting Files */,
 			);
@@ -252,7 +247,6 @@
 			files = (
 				623A466218A14E1100FB5BF9 /* SCSAppDelegate.m in Sources */,
 				623A465E18A14E1100FB5BF9 /* main.m in Sources */,
-				623A466818A14E1100FB5BF9 /* SCSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +451,7 @@
 				623A468218A14E1100FB5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623A468318A14E1100FB5BF9 /* Build configuration list for PBXNativeTarget "MatchMeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +460,7 @@
 				623A468518A14E1100FB5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
