@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620BC6B818A1972B000D0CCF /* SCSPlayingCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BC6B718A1972B000D0CCF /* SCSPlayingCardCell.m */; };
+		620BC6BB18A1977E000D0CCF /* SCSGameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */; };
 		623A465218A14E1100FB5BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A465118A14E1100FB5BF9 /* Foundation.framework */; };
 		623A465418A14E1100FB5BF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A465318A14E1100FB5BF9 /* CoreGraphics.framework */; };
 		623A465618A14E1100FB5BF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A465518A14E1100FB5BF9 /* UIKit.framework */; };
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620BC6B618A1972B000D0CCF /* SCSPlayingCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSPlayingCardCell.h; sourceTree = "<group>"; };
+		620BC6B718A1972B000D0CCF /* SCSPlayingCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardCell.m; sourceTree = "<group>"; };
+		620BC6B918A1977E000D0CCF /* SCSGameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSGameBoardViewController.h; sourceTree = "<group>"; };
+		620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSGameBoardViewController.m; sourceTree = "<group>"; };
 		623A464E18A14E1100FB5BF9 /* MatchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		623A465118A14E1100FB5BF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		623A465318A14E1100FB5BF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		620BC6BC18A19794000D0CCF /* Start up */ = {
+			isa = PBXGroup;
+			children = (
+				623A466018A14E1100FB5BF9 /* SCSAppDelegate.h */,
+				623A466118A14E1100FB5BF9 /* SCSAppDelegate.m */,
+			);
+			name = "Start up";
+			sourceTree = "<group>";
+		};
+		620BC6BD18A197AC000D0CCF /* Game Board */ = {
+			isa = PBXGroup;
+			children = (
+				620BC6B918A1977E000D0CCF /* SCSGameBoardViewController.h */,
+				620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */,
+			);
+			name = "Game Board";
+			sourceTree = "<group>";
+		};
+		620BC6BE18A197BC000D0CCF /* Playing Card Cell */ = {
+			isa = PBXGroup;
+			children = (
+				620BC6B618A1972B000D0CCF /* SCSPlayingCardCell.h */,
+				620BC6B718A1972B000D0CCF /* SCSPlayingCardCell.m */,
+			);
+			name = "Playing Card Cell";
+			sourceTree = "<group>";
+		};
 		623A464518A14E1100FB5BF9 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +142,10 @@
 		623A465718A14E1100FB5BF9 /* MatchMe */ = {
 			isa = PBXGroup;
 			children = (
-				623A466018A14E1100FB5BF9 /* SCSAppDelegate.h */,
-				623A466118A14E1100FB5BF9 /* SCSAppDelegate.m */,
 				623A466318A14E1100FB5BF9 /* Main.storyboard */,
+				620BC6BD18A197AC000D0CCF /* Game Board */,
+				620BC6BE18A197BC000D0CCF /* Playing Card Cell */,
+				620BC6BC18A19794000D0CCF /* Start up */,
 				623A466918A14E1100FB5BF9 /* Images.xcassets */,
 				623A465818A14E1100FB5BF9 /* Supporting Files */,
 			);
@@ -246,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				623A466218A14E1100FB5BF9 /* SCSAppDelegate.m in Sources */,
+				620BC6BB18A1977E000D0CCF /* SCSGameBoardViewController.m in Sources */,
+				620BC6B818A1972B000D0CCF /* SCSPlayingCardCell.m in Sources */,
 				623A465E18A14E1100FB5BF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
