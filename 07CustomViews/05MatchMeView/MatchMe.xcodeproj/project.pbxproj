@@ -68,7 +68,6 @@
 		623A467818A14E1100FB5BF9 /* MatchMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchMeTests-Info.plist"; sourceTree = "<group>"; };
 		623A467A18A14E1100FB5BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		623A467C18A14E1100FB5BF9 /* MatchMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchMeTests.m; sourceTree = "<group>"; };
-		6274E52A18A591C500CB3787 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +158,6 @@
 		623A465018A14E1100FB5BF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6274E52A18A591C500CB3787 /* Reveal.framework */,
 				623A465118A14E1100FB5BF9 /* Foundation.framework */,
 				623A465318A14E1100FB5BF9 /* CoreGraphics.framework */,
 				623A465518A14E1100FB5BF9 /* UIKit.framework */,
