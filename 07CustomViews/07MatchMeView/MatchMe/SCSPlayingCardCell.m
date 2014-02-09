@@ -60,7 +60,7 @@
     self.backgroundView.hidden = ! self.backgroundView.hidden;
     self.playingCardLabel.hidden = ! self.playingCardLabel.hidden;
 }
-- (void(^)(void))flipHalfway {
+- (void(^)(void))flipHalfway { 
     return ^{
         self.transform = CGAffineTransformMakeScale(0.01,1);
         self.center = CGPointMake(self.center.x + self.frame.size.width/2,
