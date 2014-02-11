@@ -1,13 +1,8 @@
 #import "SCSHitMeGame.h"
 #import "SCSPlayingCard.h"
 #import "SCSDeck.h"
+#import "SCSHitMeGame_Private.h"
 
-@interface SCSHitMeGame ()
-@property (nonatomic) NSArray *validRanks;
-@property (nonatomic) NSArray *validSuits;
-@property (nonatomic) NSDictionary *colorForSuit;
-@property (nonatomic) SCSDeck *deck;
-@end
 
 @implementation SCSHitMeGame
 

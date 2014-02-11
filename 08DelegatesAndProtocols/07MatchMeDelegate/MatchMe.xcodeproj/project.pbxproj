@@ -74,6 +74,7 @@
 		624F90A818A948C300D2A3B3 /* SCSPlayingCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardController.m; sourceTree = "<group>"; };
 		624F90AB18AA5CC300D2A3B3 /* SCSMatchMeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSMatchMeGame.h; sourceTree = "<group>"; };
 		624F90AC18AA5CC300D2A3B3 /* SCSMatchMeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSMatchMeGame.m; sourceTree = "<group>"; };
+		624F90AE18AABBF600D2A3B3 /* SCSHitMeGame_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSHitMeGame_Private.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 				623206FD18A3BB3E00892813 /* SCSPlayingCard.m */,
 				624F90AB18AA5CC300D2A3B3 /* SCSMatchMeGame.h */,
 				624F90AC18AA5CC300D2A3B3 /* SCSMatchMeGame.m */,
+				624F90AE18AABBF600D2A3B3 /* SCSHitMeGame_Private.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
