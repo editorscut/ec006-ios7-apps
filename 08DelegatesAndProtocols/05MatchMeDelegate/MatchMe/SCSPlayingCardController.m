@@ -8,6 +8,16 @@
 
 @implementation SCSPlayingCardController
 
+- (instancetype)initWithPlayingCard:(SCSPlayingCard *)playingCard {
+    self = [super init];
+    if (self) {
+        _playingCard = playingCard;
+    }
+    return self;
+}
+- (instancetype)init {
+    return [self initWithPlayingCard:nil];
+}
 - (NSString *)contentStringForPlayingCardCell:(SCSPlayingCardCell *)playingCardCell {
     return [NSString stringWithFormat:@"%@ %@", self.playingCard.rank, self.playingCard.suit];
 }
