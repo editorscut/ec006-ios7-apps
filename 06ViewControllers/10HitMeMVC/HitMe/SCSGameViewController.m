@@ -23,7 +23,7 @@
                          self.playingCardVC.view.alpha = 0;
                      }
                      completion:^(BOOL finished) {
-                         [self showNextCard];
+                          [self showNextCard];
                      }];
 }
 - (void)viewDidLoad {
@@ -53,7 +53,7 @@
                      animations:^{
                          self.nextCardVC.view.frame = self.playingCardView.frame;
                          self.playingCardVC.view.alpha = 0;
-                     } //...
+                     }
      completion:^(BOOL finished) {
          self.playingCardVC = self.nextCardVC;
          [self showNextCard];
