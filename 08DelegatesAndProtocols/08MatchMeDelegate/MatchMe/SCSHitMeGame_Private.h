@@ -1,4 +1,5 @@
 #import "SCSHitMeGame.h"
+@class SCSDeck;
 
 @interface SCSHitMeGame ()
 @property (nonatomic) NSArray *validRanks;
