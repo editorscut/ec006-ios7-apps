@@ -21,9 +21,18 @@
     return _playingCardControllers;
 }
 
+- (void)dealCards {
+        NSMutableArray *tempControllers = [[NSMutableArray alloc] initWithCapacity:[self numberOfCards]];
+        for (int i = 0; i < [self numberOfCards]; i++) {
+            [tempControllers addObject:[[SCSPlayingCardController alloc] initWithPlayingCard: [self.game nextCard]]];
+        }
+        self.playingCardControllers = tempControllers;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpGame];
+    [self dealCards];
 }
 
 - (void)setUpGame {
@@ -43,16 +52,14 @@
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    SCSPlayingCardCell *playingCardCell
+    UICollectionViewCell *playingCardCell
         = [collectionView dequeueReusableCellWithReuseIdentifier:@"PlayingCardCell"
                                                     forIndexPath:indexPath];
-    playingCardCell.dataSource = self.playingCardControllers[indexPath.item];
-    [playingCardCell refreshView];
+    SCSPlayingCardController *controllerForCell = self.playingCardControllers[indexPath.item];
+    [controllerForCell connectToCell:playingCardCell];
     return playingCardCell;
 }
 - (void)collectionView:(UICollectionView *)collectionView
 didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    SCSPlayingCardCell *selectedCell = (SCSPlayingCardCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    [selectedCell didReceiveTap];
 }
 @end

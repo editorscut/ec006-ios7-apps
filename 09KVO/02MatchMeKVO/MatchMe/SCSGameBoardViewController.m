@@ -46,7 +46,7 @@
     SCSPlayingCardCell *playingCardCell
         = [collectionView dequeueReusableCellWithReuseIdentifier:@"PlayingCardCell"
                                                     forIndexPath:indexPath];
-    playingCardCell.dataSource = self.playingCardControllers[indexPath.row];
+    playingCardCell.dataSource = self.playingCardControllers[indexPath.item];
     [playingCardCell refreshView];
     return playingCardCell;
 }
