@@ -3,7 +3,6 @@
 
 @interface SCSPlayingCardCell : UICollectionViewCell
 @property (weak, nonatomic) id<SCSPlayingCardCellDataSource>dataSource;
-- (void)didReceiveTap;
 - (void)refreshView;
 @end
 
