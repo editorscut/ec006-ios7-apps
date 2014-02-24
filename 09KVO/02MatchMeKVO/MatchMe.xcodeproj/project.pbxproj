@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		620BC6B818A1972B000D0CCF /* SCSPlayingCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BC6B718A1972B000D0CCF /* SCSPlayingCardCell.m */; };
 		620BC6BB18A1977E000D0CCF /* SCSGameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */; };
-		620BC6C118A1B314000D0CCF /* SCSScoreBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 620BC6C018A1B314000D0CCF /* SCSScoreBoardView.m */; };
 		623206FE18A3BB3E00892813 /* SCSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 623206F918A3BB3E00892813 /* SCSDeck.m */; };
 		623206FF18A3BB3E00892813 /* SCSHitMeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 623206FB18A3BB3E00892813 /* SCSHitMeGame.m */; };
 		6232070018A3BB3E00892813 /* SCSPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 623206FD18A3BB3E00892813 /* SCSPlayingCard.m */; };
@@ -45,8 +44,6 @@
 		620BC6B718A1972B000D0CCF /* SCSPlayingCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSPlayingCardCell.m; sourceTree = "<group>"; };
 		620BC6B918A1977E000D0CCF /* SCSGameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSGameBoardViewController.h; sourceTree = "<group>"; };
 		620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSGameBoardViewController.m; sourceTree = "<group>"; };
-		620BC6BF18A1B314000D0CCF /* SCSScoreBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSScoreBoardView.h; sourceTree = "<group>"; };
-		620BC6C018A1B314000D0CCF /* SCSScoreBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSScoreBoardView.m; sourceTree = "<group>"; };
 		623206F818A3BB3E00892813 /* SCSDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSDeck.h; sourceTree = "<group>"; };
 		623206F918A3BB3E00892813 /* SCSDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSDeck.m; sourceTree = "<group>"; };
 		623206FA18A3BB3E00892813 /* SCSHitMeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSHitMeGame.h; sourceTree = "<group>"; };
@@ -115,8 +112,6 @@
 			children = (
 				620BC6B918A1977E000D0CCF /* SCSGameBoardViewController.h */,
 				620BC6BA18A1977E000D0CCF /* SCSGameBoardViewController.m */,
-				620BC6BF18A1B314000D0CCF /* SCSScoreBoardView.h */,
-				620BC6C018A1B314000D0CCF /* SCSScoreBoardView.m */,
 			);
 			name = "Game Board";
 			sourceTree = "<group>";
@@ -334,7 +329,6 @@
 				620BC6BB18A1977E000D0CCF /* SCSGameBoardViewController.m in Sources */,
 				624F90A918A948C300D2A3B3 /* SCSPlayingCardController.m in Sources */,
 				620BC6B818A1972B000D0CCF /* SCSPlayingCardCell.m in Sources */,
-				620BC6C118A1B314000D0CCF /* SCSScoreBoardView.m in Sources */,
 				623206FE18A3BB3E00892813 /* SCSDeck.m in Sources */,
 				623A465E18A14E1100FB5BF9 /* main.m in Sources */,
 			);
