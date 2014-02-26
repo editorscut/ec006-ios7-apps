@@ -1,6 +1,7 @@
 #import "SCSMatchMeGame.h"
 #import "SCSHitMeGame_Private.h"
 #import "SCSDeck.h"
+#import "SCSConstants.h"
 
 @interface SCSMatchMeGame ()
 @property (nonatomic) NSInteger pairs;
@@ -11,6 +12,9 @@
     self = [super init];
     if (self) {
         _pairs = pairs;
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(playingCardDidGetTurnedFaceUp:)
+                                                     name:SCSPlayingCardDidBecomeFaceUpNotification object:nil];
     }
     return self;
 }
