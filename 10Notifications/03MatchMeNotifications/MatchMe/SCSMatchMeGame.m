@@ -1,7 +1,6 @@
 #import "SCSMatchMeGame.h"
 #import "SCSHitMeGame_Private.h"
 #import "SCSDeck.h"
-#import "SCSPlayingCard.h"
 
 @interface SCSMatchMeGame ()
 @property (nonatomic) NSInteger pairs;

@@ -1,5 +1,4 @@
 #import "SCSHitMeGame.h"
-#import "SCSPlayingCard.h"
 #import "SCSDeck.h"
 #import "SCSHitMeGame_Private.h"
 
