@@ -1,5 +1,0 @@
-extern NSString *const SCSPlayingCardDidBecomeFaceUpNotification;
-extern NSString *const SCSPlayingCardCellDidFinishFlippingCardNotification;
-extern NSString *const SCSMatchMeGameDidIdentifyMatchingCardsNotification;
-extern NSString *const SCSMatchMeGameDidIdentifyNonmatchingCardsNotification;
-
