@@ -5,9 +5,11 @@
 
 @interface SCSMatchMeGame ()
 @property (nonatomic) NSInteger pairs;
+@property (nonatomic) NSString *rankToMatch;
 @end
 
 @implementation SCSMatchMeGame
+
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:SCSPlayingCardDidBecomeFaceUpNotification object:nil];
@@ -21,6 +23,22 @@
                                                      name:SCSPlayingCardDidBecomeFaceUpNotification object:nil];
     }
     return self;
+}
+
+- (void)playingCardDidGetTurnedFaceUp:(NSNotification *)notification {
+    NSString *rank = notification.userInfo[@"rank"];
+    if ( ! self.rankToMatch) {
+        self.rankToMatch = rank;
+    } else {
+        if ([self.rankToMatch isEqualToString:rank]) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyMatchingCardsNotification
+                                                                object:self];
+        } else {
+            [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyNonmatchingCardsNotification
+                                                                object:self];
+        }
+        self.rankToMatch = nil;
+    }
 }
 - (instancetype)init {
     return [self initWithPairs:0];
