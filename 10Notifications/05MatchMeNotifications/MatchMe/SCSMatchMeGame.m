@@ -11,6 +11,9 @@
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:SCSPlayingCardDidBecomeFaceUpNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:SCSPlayingCardCellDidFinishFlippingCardNotification
+                                                  object:nil];
 }
 - (instancetype)initWithPairs:(NSInteger)pairs {
     self = [super init];
@@ -19,10 +22,17 @@
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(playingCardDidGetTurnedFaceUp:)
                                                      name:SCSPlayingCardDidBecomeFaceUpNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(playingCardDidCompleteAnimatingToFaceUp:)
+                                                     name:SCSPlayingCardCellDidFinishFlippingCardNotification
+                                                   object:nil];
     }
     return self;
 }
 - (void)playingCardDidGetTurnedFaceUp:(NSNotification *)notification {
+    NSLog(@"%@", notification);
+}
+- (void)playingCardDidCompleteAnimatingToFaceUp:(NSNotification *)notification {
     NSLog(@"%@", notification);
 }
 - (instancetype)init {
