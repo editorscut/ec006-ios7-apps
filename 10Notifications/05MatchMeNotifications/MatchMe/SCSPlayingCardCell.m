@@ -1,4 +1,5 @@
 #import "SCSPlayingCardCell.h"
+#import "SCSConstants.h"
 
 @interface SCSPlayingCardCell ()
 @property (weak, nonatomic) IBOutlet UILabel *playingCardLabel;
@@ -59,7 +60,7 @@
                      animations:[self flipHalfway]
                      completion:^(BOOL finished) {
                          [self displayCardFaceUp:isFaceUp];
-                         [self animateFlipTheRestOfTheWay];
+                         [self animateFlipTheRestOfTheWayAndNotify:isFaceUp];
                      }];
 }
 - (void)displayCardFaceUp:(BOOL)isFaceUp {
@@ -78,9 +79,15 @@
         self.transform = CGAffineTransformIdentity;
     };
 }
-- (void)animateFlipTheRestOfTheWay {
+- (void)animateFlipTheRestOfTheWayAndNotify:(BOOL)notify {
     [UIView animateWithDuration:.15
-                     animations:[self flipTheRestOfTheWay]];
+                     animations:[self flipTheRestOfTheWay]
+                     completion:^(BOOL finished) {
+                         if (notify) {
+                             [[NSNotificationCenter defaultCenter] postNotificationName:SCSPlayingCardCellDidFinishFlippingCardNotification
+                                                                                 object:self];
+                         };
+                     }];
 }
 
 - (void)awakeFromNib {

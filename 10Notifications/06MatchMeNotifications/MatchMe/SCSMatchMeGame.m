@@ -6,6 +6,7 @@
 @interface SCSMatchMeGame ()
 @property (nonatomic) NSInteger pairs;
 @property (nonatomic) NSString *rankToMatch;
+@property (nonatomic) NSString *pendingNotificationName;
 @end
 
 @implementation SCSMatchMeGame
@@ -29,13 +30,12 @@
     NSString *rank = notification.userInfo[@"rank"];
     if ( ! self.rankToMatch) {
         self.rankToMatch = rank;
+        self.pendingNotificationName = nil;
     } else {
         if ([self.rankToMatch isEqualToString:rank]) {
-            [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyMatchingCardsNotification
-                                                                object:self];
+            self.pendingNotificationName = SCSMatchMeGameDidIdentifyMatchingCardsNotification;
         } else {
-            [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyNonmatchingCardsNotification
-                                                                object:self];
+            self.pendingNotificationName = SCSMatchMeGameDidIdentifyNonmatchingCardsNotification;
         }
         self.rankToMatch = nil;
     }
