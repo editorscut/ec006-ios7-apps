@@ -42,7 +42,18 @@ typedef enum SCSMatchMePairMatchState:NSUInteger {
     NSLog(@"%@", notification);
 }
 - (void)playingCardDidCompleteAnimatingToFaceUp:(NSNotification *)notification {
-    NSLog(@"%@", notification);
+    NSString *rank = notification.userInfo[@"rank"];
+    if ( ! self.rankToMatch) {
+        self.rankToMatch = rank;
+        self.matchState = SCSReadyToMatch;
+    } else {
+        if ([self.rankToMatch isEqualToString:rank]) {
+            self.matchState = SCSTwoCardsMatch;
+        } else {
+            self.matchState = SCSTwoCardsDoNotMatch;
+        }
+        self.rankToMatch = nil;
+    }
 }
 - (instancetype)init {
     return [self initWithPairs:0];
