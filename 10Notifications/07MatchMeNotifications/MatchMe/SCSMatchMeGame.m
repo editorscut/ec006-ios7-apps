@@ -39,9 +39,6 @@ typedef enum SCSMatchMePairMatchState:NSUInteger {
     return self;
 }
 - (void)playingCardDidGetTurnedFaceUp:(NSNotification *)notification {
-    NSLog(@"%@", notification);
-}
-- (void)playingCardDidCompleteAnimatingToFaceUp:(NSNotification *)notification {
     NSString *rank = notification.userInfo[@"rank"];
     if ( ! self.rankToMatch) {
         self.rankToMatch = rank;
@@ -53,7 +50,16 @@ typedef enum SCSMatchMePairMatchState:NSUInteger {
             self.matchState = SCSTwoCardsDoNotMatch;
         }
         self.rankToMatch = nil;
+    }}
+- (void)playingCardDidCompleteAnimatingToFaceUp:(NSNotification *)notification {
+    if (self.matchState == SCSTwoCardsMatch) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyMatchingCardsNotification
+                                                            object:self];
+    } else if (self.matchState == SCSTwoCardsDoNotMatch) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:SCSMatchMeGameDidIdentifyNonmatchingCardsNotification
+                                                            object:self];
     }
+    self.matchState = SCSNotReadyToMatch;
 }
 - (instancetype)init {
     return [self initWithPairs:0];
