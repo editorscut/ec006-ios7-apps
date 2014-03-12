@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620C05ED18CF37560028FDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C05EC18CF37560028FDBE /* Foundation.framework */; };
+		620C05EF18CF37560028FDBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C05EE18CF37560028FDBE /* CoreGraphics.framework */; };
+		620C05F118CF37560028FDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C05F018CF37560028FDBE /* UIKit.framework */; };
+		620C05F718CF37560028FDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620C05F518CF37560028FDBE /* InfoPlist.strings */; };
+		620C05F918CF37560028FDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C05F818CF37560028FDBE /* main.m */; };
+		620C05FD18CF37560028FDBE /* SCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C05FC18CF37560028FDBE /* SCSAppDelegate.m */; };
+		620C060018CF37560028FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C05FE18CF37560028FDBE /* Main.storyboard */; };
+		620C060318CF37560028FDBE /* SCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C060218CF37560028FDBE /* SCSViewController.m */; };
+		620C060518CF37560028FDBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620C060418CF37560028FDBE /* Images.xcassets */; };
+		620C060C18CF37560028FDBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C060B18CF37560028FDBE /* XCTest.framework */; };
+		620C060D18CF37560028FDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C05EC18CF37560028FDBE /* Foundation.framework */; };
+		620C060E18CF37560028FDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C05F018CF37560028FDBE /* UIKit.framework */; };
+		620C061618CF37560028FDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620C061418CF37560028FDBE /* InfoPlist.strings */; };
+		620C061818CF37560028FDBE /* DropMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C061718CF37560028FDBE /* DropMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620C060F18CF37560028FDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620C05E118CF37560028FDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620C05E818CF37560028FDBE;
+			remoteInfo = DropMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		620C05E918CF37560028FDBE /* DropMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		620C05EC18CF37560028FDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		620C05EE18CF37560028FDBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		620C05F018CF37560028FDBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		620C05F418CF37560028FDBE /* DropMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropMe-Info.plist"; sourceTree = "<group>"; };
+		620C05F618CF37560028FDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		620C05F818CF37560028FDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		620C05FA18CF37560028FDBE /* DropMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropMe-Prefix.pch"; sourceTree = "<group>"; };
+		620C05FB18CF37560028FDBE /* SCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSAppDelegate.h; sourceTree = "<group>"; };
+		620C05FC18CF37560028FDBE /* SCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSAppDelegate.m; sourceTree = "<group>"; };
+		620C05FF18CF37560028FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		620C060118CF37560028FDBE /* SCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSViewController.h; sourceTree = "<group>"; };
+		620C060218CF37560028FDBE /* SCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSViewController.m; sourceTree = "<group>"; };
+		620C060418CF37560028FDBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		620C060A18CF37560028FDBE /* DropMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620C060B18CF37560028FDBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		620C061318CF37560028FDBE /* DropMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropMeTests-Info.plist"; sourceTree = "<group>"; };
+		620C061518CF37560028FDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		620C061718CF37560028FDBE /* DropMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620C05E618CF37560028FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C05EF18CF37560028FDBE /* CoreGraphics.framework in Frameworks */,
+				620C05F118CF37560028FDBE /* UIKit.framework in Frameworks */,
+				620C05ED18CF37560028FDBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620C060718CF37560028FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C060C18CF37560028FDBE /* XCTest.framework in Frameworks */,
+				620C060E18CF37560028FDBE /* UIKit.framework in Frameworks */,
+				620C060D18CF37560028FDBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620C05E018CF37560028FDBE = {
+			isa = PBXGroup;
+			children = (
+				620C05F218CF37560028FDBE /* DropMe */,
+				620C061118CF37560028FDBE /* DropMeTests */,
+				620C05EB18CF37560028FDBE /* Frameworks */,
+				620C05EA18CF37560028FDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		620C05EA18CF37560028FDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620C05E918CF37560028FDBE /* DropMe.app */,
+				620C060A18CF37560028FDBE /* DropMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		620C05EB18CF37560028FDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				620C05EC18CF37560028FDBE /* Foundation.framework */,
+				620C05EE18CF37560028FDBE /* CoreGraphics.framework */,
+				620C05F018CF37560028FDBE /* UIKit.framework */,
+				620C060B18CF37560028FDBE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		620C05F218CF37560028FDBE /* DropMe */ = {
+			isa = PBXGroup;
+			children = (
+				620C05FE18CF37560028FDBE /* Main.storyboard */,
+				620C060118CF37560028FDBE /* SCSViewController.h */,
+				620C060218CF37560028FDBE /* SCSViewController.m */,
+				620C060418CF37560028FDBE /* Images.xcassets */,
+				620C05F318CF37560028FDBE /* Supporting Files */,
+			);
+			path = DropMe;
+			sourceTree = "<group>";
+		};
+		620C05F318CF37560028FDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620C05FB18CF37560028FDBE /* SCSAppDelegate.h */,
+				620C05FC18CF37560028FDBE /* SCSAppDelegate.m */,
+				620C05F418CF37560028FDBE /* DropMe-Info.plist */,
+				620C05F518CF37560028FDBE /* InfoPlist.strings */,
+				620C05F818CF37560028FDBE /* main.m */,
+				620C05FA18CF37560028FDBE /* DropMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		620C061118CF37560028FDBE /* DropMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				620C061718CF37560028FDBE /* DropMeTests.m */,
+				620C061218CF37560028FDBE /* Supporting Files */,
+			);
+			path = DropMeTests;
+			sourceTree = "<group>";
+		};
+		620C061218CF37560028FDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620C061318CF37560028FDBE /* DropMeTests-Info.plist */,
+				620C061418CF37560028FDBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		620C05E818CF37560028FDBE /* DropMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620C061B18CF37570028FDBE /* Build configuration list for PBXNativeTarget "DropMe" */;
+			buildPhases = (
+				620C05E518CF37560028FDBE /* Sources */,
+				620C05E618CF37560028FDBE /* Frameworks */,
+				620C05E718CF37560028FDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropMe;
+			productName = DropMe;
+			productReference = 620C05E918CF37560028FDBE /* DropMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		620C060918CF37560028FDBE /* DropMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620C061E18CF37570028FDBE /* Build configuration list for PBXNativeTarget "DropMeTests" */;
+			buildPhases = (
+				620C060618CF37560028FDBE /* Sources */,
+				620C060718CF37560028FDBE /* Frameworks */,
+				620C060818CF37560028FDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620C061018CF37560028FDBE /* PBXTargetDependency */,
+			);
+			name = DropMeTests;
+			productName = DropMeTests;
+			productReference = 620C060A18CF37560028FDBE /* DropMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		620C05E118CF37560028FDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "CS 193P";
+				TargetAttributes = {
+					620C060918CF37560028FDBE = {
+						TestTargetID = 620C05E818CF37560028FDBE;
+					};
+				};
+			};
+			buildConfigurationList = 620C05E418CF37560028FDBE /* Build configuration list for PBXProject "DropMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 620C05E018CF37560028FDBE;
+			productRefGroup = 620C05EA18CF37560028FDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				620C05E818CF37560028FDBE /* DropMe */,
+				620C060918CF37560028FDBE /* DropMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		620C05E718CF37560028FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C060518CF37560028FDBE /* Images.xcassets in Resources */,
+				620C05F718CF37560028FDBE /* InfoPlist.strings in Resources */,
+				620C060018CF37560028FDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620C060818CF37560028FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C061618CF37560028FDBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		620C05E518CF37560028FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C05FD18CF37560028FDBE /* SCSAppDelegate.m in Sources */,
+				620C05F918CF37560028FDBE /* main.m in Sources */,
+				620C060318CF37560028FDBE /* SCSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620C060618CF37560028FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C061818CF37560028FDBE /* DropMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		620C061018CF37560028FDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620C05E818CF37560028FDBE /* DropMe */;
+			targetProxy = 620C060F18CF37560028FDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		620C05F518CF37560028FDBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620C05F618CF37560028FDBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		620C05FE18CF37560028FDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620C05FF18CF37560028FDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		620C061418CF37560028FDBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620C061518CF37560028FDBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		620C061918CF37570028FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		620C061A18CF37570028FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		620C061C18CF37570028FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
+				INFOPLIST_FILE = "DropMe/DropMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		620C061D18CF37570028FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
+				INFOPLIST_FILE = "DropMe/DropMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		620C061F18CF37570028FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DropMe.app/DropMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DropMeTests/DropMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		620C062018CF37570028FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DropMe.app/DropMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
+				INFOPLIST_FILE = "DropMeTests/DropMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		620C05E418CF37560028FDBE /* Build configuration list for PBXProject "DropMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620C061918CF37570028FDBE /* Debug */,
+				620C061A18CF37570028FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620C061B18CF37570028FDBE /* Build configuration list for PBXNativeTarget "DropMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620C061C18CF37570028FDBE /* Debug */,
+				620C061D18CF37570028FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		620C061E18CF37570028FDBE /* Build configuration list for PBXNativeTarget "DropMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620C061F18CF37570028FDBE /* Debug */,
+				620C062018CF37570028FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 620C05E118CF37560028FDBE /* Project object */;
+}
