@@ -3,7 +3,7 @@
 static const CGFloat  SQUARE_SIZE = 40;
 static const NSUInteger NUMBER_OF_COLUMNS = 8;
 
-@interface SCSViewController ()
+@interface SCSViewController ()<UICollisionBehaviorDelegate>
 @property (nonatomic) NSArray *colors;
 @property (nonatomic) UIDynamicAnimator *animator;
 @property (nonatomic) UIGravityBehavior *gravity;
@@ -30,6 +30,7 @@ static const NSUInteger NUMBER_OF_COLUMNS = 8;
     if (!_collision) {
         _collision = [[UICollisionBehavior alloc] init];
         _collision.translatesReferenceBoundsIntoBoundary = YES;
+        _collision.collisionDelegate = self;
         [self. animator addBehavior:_collision];
     }
     return _collision;
@@ -57,6 +58,13 @@ static const NSUInteger NUMBER_OF_COLUMNS = 8;
     nextBox.backgroundColor = [self randomColor];
     [self.view addSubview:nextBox];
     [self addBehaviorForBox:nextBox];
+}
+#pragma mark - row removal
+- (void)collisionBehavior:(UICollisionBehavior *)behavior
+      beganContactForItem:(id<UIDynamicItem>)item
+   withBoundaryIdentifier:(id<NSCopying>)identifier
+                  atPoint:(CGPoint)point {
+    //set a breakpoint on this line
 }
 #pragma mark - box configuration
 
