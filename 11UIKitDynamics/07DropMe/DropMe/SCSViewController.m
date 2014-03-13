@@ -72,7 +72,33 @@ static const NSUInteger NUMBER_OF_COLUMNS = 8;
                   atPoint:(CGPoint)point {
     if ([self didCollideWithBottom:point.y]) {
         [self.bottomRow addObject:item];
+        if ([self.bottomRow count] == NUMBER_OF_COLUMNS) {
+            [self clearBottomRow];
+        }
     }
+}
+
+- (void)clearBottomRow {
+    [self.bottomRow enumerateObjectsUsingBlock:^(UIView *box, BOOL *stop) {
+        [self removeBehaviorForBox:box];
+        [self removeBox:box];
+    }];
+    [self.bottomRow removeAllObjects];
+}
+- (void)removeBox:(UIView *)box {
+    CGFloat offscreenXCoordinate = 3 * ( box.center.x - self.view.center.x) + self.view.center.x;
+    [UIView animateWithDuration:.5
+                     animations:^{
+                         box.center = CGPointMake(offscreenXCoordinate, - 5 * SQUARE_SIZE);
+                     } completion:^(BOOL finished) {
+                         [box removeFromSuperview];
+                     }];
+}
+
+- (void)removeBehaviorForBox:(UIView *)box {
+    [self.gravity removeItem:box];
+    [self.collision removeItem:box];
+    [self.itemBehavior removeItem:box];
 }
 #pragma mark - box configuration
 
