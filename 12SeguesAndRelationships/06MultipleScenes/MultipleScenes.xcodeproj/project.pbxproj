@@ -124,14 +124,14 @@
 				62F8DDC018D490060035AEE0 /* Main.storyboard */,
 				62F8DDC318D490060035AEE0 /* SCSViewController.h */,
 				62F8DDC418D490060035AEE0 /* SCSViewController.m */,
-				62F8DDC618D490060035AEE0 /* Images.xcassets */,
-				62F8DDB518D490060035AEE0 /* Supporting Files */,
 				62D08E8018D5E651002DCF77 /* SCSColorfulViewController.h */,
 				62D08E8118D5E651002DCF77 /* SCSColorfulViewController.m */,
 				629540F418D793B700F86E83 /* SCSNameViewController.h */,
 				629540F518D793B700F86E83 /* SCSNameViewController.m */,
 				629540F718D793C200F86E83 /* SCSSignInViewController.h */,
 				629540F818D793C200F86E83 /* SCSSignInViewController.m */,
+				62F8DDC618D490060035AEE0 /* Images.xcassets */,
+				62F8DDB518D490060035AEE0 /* Supporting Files */,
 			);
 			path = MultipleScenes;
 			sourceTree = "<group>";
