@@ -22,6 +22,7 @@
 		62DBD64B18E1EC1200CDB928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62DBD64918E1EC1200CDB928 /* InfoPlist.strings */; };
 		62DBD64D18E1EC1200CDB928 /* FeedMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD64C18E1EC1200CDB928 /* FeedMeTests.m */; };
 		62DBD65818E1ECD600CDB928 /* SCSFoodLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD65718E1ECD600CDB928 /* SCSFoodLocationTableViewController.m */; };
+		62DBD65E18E21DC200CDB928 /* SCSFoodLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		62DBD64C18E1EC1200CDB928 /* FeedMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedMeTests.m; sourceTree = "<group>"; };
 		62DBD65618E1ECD600CDB928 /* SCSFoodLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSFoodLocationTableViewController.h; sourceTree = "<group>"; };
 		62DBD65718E1ECD600CDB928 /* SCSFoodLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSFoodLocationTableViewController.m; sourceTree = "<group>"; };
+		62DBD65C18E21DC200CDB928 /* SCSFoodLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSFoodLocator.h; sourceTree = "<group>"; };
+		62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSFoodLocator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				62DBD62818E1EC1200CDB928 /* Supporting Files */,
 				62DBD65618E1ECD600CDB928 /* SCSFoodLocationTableViewController.h */,
 				62DBD65718E1ECD600CDB928 /* SCSFoodLocationTableViewController.m */,
+				62DBD65C18E21DC200CDB928 /* SCSFoodLocator.h */,
+				62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */,
 			);
 			path = FeedMe;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				62DBD63218E1EC1200CDB928 /* SCSAppDelegate.m in Sources */,
 				62DBD62E18E1EC1200CDB928 /* main.m in Sources */,
 				62DBD63818E1EC1200CDB928 /* SCSViewController.m in Sources */,
+				62DBD65E18E21DC200CDB928 /* SCSFoodLocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				62DBD65218E1EC1200CDB928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62DBD65318E1EC1200CDB928 /* Build configuration list for PBXNativeTarget "FeedMeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				62DBD65518E1EC1200CDB928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
