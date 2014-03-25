@@ -3,10 +3,11 @@
 @implementation SCSPlayingCardCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.layer.cornerRadius = self.frame.size.width/16;
 }
 - (UIColor *)goldColor {
-    return [UIColor colorWithRed:1 green:.8 blue:0 alpha:1];
+    return [UIColor colorWithRed:1 green:0.8 blue:0 alpha:1.0];
 }
 - (CGRect)innerRectForRect:(CGRect)rect {
     CGFloat margin = rect.size.width/15;
