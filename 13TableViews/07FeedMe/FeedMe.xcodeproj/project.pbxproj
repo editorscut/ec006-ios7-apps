@@ -24,6 +24,7 @@
 		62DBD65818E1ECD600CDB928 /* SCSFoodLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD65718E1ECD600CDB928 /* SCSFoodLocationTableViewController.m */; };
 		62DBD65E18E21DC200CDB928 /* SCSFoodLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */; };
 		62DBD66118E3155000CDB928 /* SCSDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD66018E3155000CDB928 /* SCSDetailTableViewController.m */; };
+		62DBD66418E43FA200CDB928 /* MKPlacemark+SCSPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DBD66318E43FA200CDB928 /* MKPlacemark+SCSPinView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSFoodLocator.m; sourceTree = "<group>"; };
 		62DBD65F18E3155000CDB928 /* SCSDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSDetailTableViewController.h; sourceTree = "<group>"; };
 		62DBD66018E3155000CDB928 /* SCSDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSDetailTableViewController.m; sourceTree = "<group>"; };
+		62DBD66218E43FA200CDB928 /* MKPlacemark+SCSPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKPlacemark+SCSPinView.h"; sourceTree = "<group>"; };
+		62DBD66318E43FA200CDB928 /* MKPlacemark+SCSPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKPlacemark+SCSPinView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				62DBD65D18E21DC200CDB928 /* SCSFoodLocator.m */,
 				62DBD65F18E3155000CDB928 /* SCSDetailTableViewController.h */,
 				62DBD66018E3155000CDB928 /* SCSDetailTableViewController.m */,
+				62DBD66218E43FA200CDB928 /* MKPlacemark+SCSPinView.h */,
+				62DBD66318E43FA200CDB928 /* MKPlacemark+SCSPinView.m */,
 			);
 			path = FeedMe;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				62DBD66118E3155000CDB928 /* SCSDetailTableViewController.m in Sources */,
 				62DBD65818E1ECD600CDB928 /* SCSFoodLocationTableViewController.m in Sources */,
 				62DBD63218E1EC1200CDB928 /* SCSAppDelegate.m in Sources */,
+				62DBD66418E43FA200CDB928 /* MKPlacemark+SCSPinView.m in Sources */,
 				62DBD62E18E1EC1200CDB928 /* main.m in Sources */,
 				62DBD63818E1EC1200CDB928 /* SCSViewController.m in Sources */,
 				62DBD65E18E21DC200CDB928 /* SCSFoodLocator.m in Sources */,

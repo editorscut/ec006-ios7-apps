@@ -1,5 +1,6 @@
 #import "SCSDetailTableViewController.h"
 #import "SCSFoodLocator.h"
+#import "MKPlacemark+SCSPinView.h"
 
 @interface SCSDetailTableViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *phoneLabel;
@@ -17,6 +18,7 @@
 - (void)configureMapView {
     self.mapView.showsUserLocation = YES;
     self.mapView.region = [[SCSFoodLocator sharedFoodLocator] mapRegionForFoodLocation:self.foodLocationItem.placemark];
+    [self.mapView addAnnotation:self.foodLocationItem.placemark];
 }
 
 - (NSString *)phoneNumberDisplayText {
