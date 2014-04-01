@@ -1,15 +1,15 @@
 
 /* Class = "IBUITabBarItem"; title = "Colors"; ObjectID = "Oex-eY-YCQ"; */
-"Oex-eY-YCQ.title" = "Colors";
+"Oex-eY-YCQ.title" = "Colours";
 
 /* Class = "IBUINavigationItem"; title = "Colors"; ObjectID = "RxZ-cP-Uhm"; */
-"RxZ-cP-Uhm.title" = "Colors";
+"RxZ-cP-Uhm.title" = "Colours";
 
 /* Class = "IBUIButton"; normalTitle = "Save"; ObjectID = "TUE-B7-Iyw"; */
-"TUE-B7-Iyw.normalTitle" = "Save";
+"TUE-B7-Iyw.normalTitle" = "Retain";
 
 /* Class = "IBUIButton"; normalTitle = "Sign In"; ObjectID = "Uve-jD-BZB"; */
-"Uve-jD-BZB.normalTitle" = "Sign In";
+"Uve-jD-BZB.normalTitle" = "Register";
 
 /* Class = "IBUITextField"; placeholder = "Enter your name."; ObjectID = "XL2-f7-k4y"; */
 "XL2-f7-k4y.placeholder" = "Enter your name.";
@@ -24,4 +24,4 @@
 "uWT-7r-cOw.normalTitle" = "Red";
 
 /* Class = "IBUITabBarItem"; title = "Sign In"; ObjectID = "znT-xs-jVZ"; */
-"znT-xs-jVZ.title" = "Sign In";
+"znT-xs-jVZ.title" = "Register";
