@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6239A0E218EAF91900ECE07A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		6239A0E318EAF91900ECE07A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6239A0E418EAF91900ECE07A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		629540F418D793B700F86E83 /* SCSNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSNameViewController.h; sourceTree = "<group>"; };
 		629540F518D793B700F86E83 /* SCSNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSNameViewController.m; sourceTree = "<group>"; };
 		629540F718D793C200F86E83 /* SCSSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSSignInViewController.h; sourceTree = "<group>"; };
@@ -227,6 +230,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-GB",
 			);
 			mainGroup = 62F8DDA218D490060035AEE0;
 			productRefGroup = 62F8DDAC18D490060035AEE0 /* Products */;
@@ -297,6 +301,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				62F8DDB818D490060035AEE0 /* en */,
+				6239A0E318EAF91900ECE07A /* en-GB */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				62F8DDC118D490060035AEE0 /* Base */,
+				6239A0E218EAF91900ECE07A /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				62F8DDD718D490060035AEE0 /* en */,
+				6239A0E418EAF91900ECE07A /* en-GB */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
